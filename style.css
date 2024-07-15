@@ -11,6 +11,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #D8EFD3;
 
 }
 
@@ -51,11 +52,12 @@ body{
     width: 100px;
     height: 100px;
     outline: none;
-    border: 0;
+    border: 1px solid #7ab2b2;
     font-size: large;
     background-color: #EEF7FF;
     cursor: pointer;
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
 }
 
 .btn:hover{
