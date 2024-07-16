@@ -12,11 +12,13 @@ body{
   align-items: center;
   justify-content: center;
   background-color: #D8EFD3;
-
+  flex-direction: column;
+  gap: 20px;
 }
 
 .calc-container{
-    width: 470px;
+    width: 400px;
+    border: 1px solid #7ab2b2;
 }
 
 .output-container{
@@ -36,6 +38,7 @@ body{
 }
 
 .current-operation{
+    word-wrap: break-word;
     padding: 0 10px 0 0;
     font-size: xx-large;
     height: 70px;
@@ -74,4 +77,13 @@ body{
 
 .equals:hover{
     background-color: rgb(155, 242, 155);
+}
+
+a{
+    text-decoration: none;
+    color: #3f8a8a;
+}
+
+a:hover{
+    color: #2b4646;
 }

@@ -76,7 +76,10 @@ dot.addEventListener('click',()=>{
     if(!currValue.includes('.')){
         currValue+= '.';
     }
+    currentOutput.textContent = currValue;
 });
+
+
 
 
 function add(num1, num2) {
